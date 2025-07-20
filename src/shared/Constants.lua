@@ -9,7 +9,7 @@
 local Constants = {}
 
 -- Game Information
-Constants.GAME_NAME = "BlindSpot"
+Constants.GAME_NAME = "LUMIN"
 Constants.GAME_VERSION = "0.1.0 Alpha"
 Constants.DEVELOPER_NAME = "AI Assistant"
 

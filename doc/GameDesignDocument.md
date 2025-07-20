@@ -1,12 +1,12 @@
-BlindSpot: Game Design Document
+Lumin: Game Design Document
 1. Game Title
-BlindSpot (Derived from "BlindSpotescence," emphasizing light and stealth)
+Lumin (Derived from "Luminance," emphasizing light and stealth)
 
 2. Core Concept
-BlindSpot is a stealth-puzzle game where players navigate a high-tech facility, completing objectives while meticulously avoiding detection by ever-present, patrolling light sources. The game emphasizes precision movement, environmental awareness, and strategic timing.
+Lumin is a stealth-puzzle game where players navigate a high-tech facility, completing objectives while meticulously avoiding detection by ever-present, patrolling light sources. The game emphasizes precision movement, environmental awareness, and strategic timing.
 
 3. Game Loop
-The core loop of BlindSpot is designed to be engaging, challenging, and highly replayable:
+The core loop of Lumin is designed to be engaging, challenging, and highly replayable:
 
 Objective Briefing: At the start of a round/level, players are given a clear objective (e.g., "Hack Terminal A," "Retrieve Data Chip," "Activate Power Conduit").
 
@@ -33,7 +33,7 @@ Laser Grids: Static or moving laser barriers that pulse on/off, requiring precis
 
 Sentinel Cameras: Fixed cameras with sweeping light cones, acting as stationary hazards.
 
-Environmental Lighting: The general ambient light of the map is low, creating clear distinctions between ilBlindSpotated and shadowed areas. Glowing lines on the floor (like circuitry) provide visual cues and navigation aids without offering cover.
+Environmental Lighting: The general ambient light of the map is low, creating clear distinctions between illuminated and shadowed areas. Glowing lines on the floor (like circuitry) provide visual cues and navigation aids without offering cover.
 
 Interaction & Tasks:
 
@@ -69,9 +69,9 @@ Interactive Elements: Terminals, doors, and objects that are part of the objecti
 Visual Cues: The grid on the floor, glowing wall panels, and distinct light cone visuals provide all necessary information to the player without relying on sound.
 
 6. Player Progression & Monetization
-In-Game Currency: "BlindSpot Credits" are earned by successfully completing levels, performing tasks, and surviving rounds.
+In-Game Currency: "Lumin Credits" are earned by successfully completing levels, performing tasks, and surviving rounds.
 
-Cosmetics: The primary monetization strategy will be cosmetic items purchased with BlindSpot Credits or Robux. These include:
+Cosmetics: The primary monetization strategy will be cosmetic items purchased with Lumin Credits or Robux. These include:
 
 Player Skins: Different futuristic outfits or character models.
 
@@ -81,7 +81,7 @@ Interaction Effects: Special visual effects when interacting with terminals.
 
 Emotes: Custom animations.
 
-Leaderboards: Track fastest completion times, most successful escapes, or highest BlindSpot Credits earned, encouraging replayability and competition.
+Leaderboards: Track fastest completion times, most successful escapes, or highest Lumin Credits earned, encouraging replayability and competition.
 
 7. Target Audience
 Kids and teens (ages 8-16) who enjoy puzzle games, stealth mechanics, and competitive challenges. The simple controls and clear objectives make it accessible, while the increasing difficulty provides a long-term challenge.
@@ -99,7 +99,7 @@ Replayability: Modular levels and potential for randomized light patterns keep t
 
 Competitive Edge: Leaderboards and the desire for unique cosmetics drive engagement.
 
-BlindSpot/
+Lumin/
 ├── doc/
 │   ├── DevelopmentStages.md
 │   └── GameDesignDocument.md

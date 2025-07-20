@@ -1,5 +1,5 @@
-BlindSpot: Development Stages
-Building BlindSpot will be approached in distinct phases, ensuring a stable foundation before adding complexity. This modular approach aligns with your request for separate systems and maintainability.
+Lumin: Development Stages
+Building Lumin will be approached in distinct phases, ensuring a stable foundation before adding complexity. This modular approach aligns with your request for separate systems and maintainability.
 
 Phase 1: Core Systems & Basic Gameplay Loop (MVP - Minimum Viable Product)
 Goal: Establish the fundamental architecture, logging, constants, and a single, playable "avoid the light" loop in a basic environment.
@@ -96,7 +96,7 @@ Main menu UI (Play, Settings, Shop).
 
 In-game HUD (objective tracker, ability cooldowns).
 
-End-of-round screen (Win/Loss, BlindSpot Credits earned).
+End-of-round screen (Win/Loss, Lumin Credits earned).
 
 3.3 Sound Design (Optional, but recommended for immersion):
 
@@ -109,7 +109,7 @@ Goal: Add depth, replayability, and the core monetization loop.
 
 4.1 Progression System:
 
-Implement BlindSpot Credits currency system.
+Implement Lumin Credits currency system.
 
 Basic data saving/loading for player currency and unlocked items.
 
