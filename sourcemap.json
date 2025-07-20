@@ -1,0 +1,37 @@
+{
+    "version": 1,
+    "files": [
+        {
+            "source": "src/server/Core/init.server.lua",
+            "target": "game/ServerScriptService/Core/init.server.lua"
+        },
+        {
+            "source": "src/server/Core/GlobalRegistry.lua",
+            "target": "game/ServerScriptService/Core/GlobalRegistry.lua"
+        },
+        {
+            "source": "src/server/Core/ServiceRegistry.lua",
+            "target": "game/ServerScriptService/Core/ServiceRegistry.lua"
+        },
+        {
+            "source": "src/server/Core/Logger.lua",
+            "target": "game/ServerScriptService/Core/Logger.lua"
+        },
+        {
+            "source": "src/server/Core/BaseService.lua",
+            "target": "game/ServerScriptService/Core/BaseService.lua"
+        },
+        {
+            "source": "src/server/Systems/GameService.lua",
+            "target": "game/ServerScriptService/Systems/GameService.lua"
+        },
+        {
+            "source": "src/client/init.client.lua",
+            "target": "game/StarterPlayerScripts/init.client.lua"
+        },
+        {
+            "source": "src/shared/Constants.lua",
+            "target": "game/ReplicatedStorage/Shared/Constants.lua"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "languageMode": "nonstrict",
+    "globals": [
+        "game",
+        "workspace",
+        "script",
+        "wait",
+        "spawn",
+        "delay",
+        "settings",
+        "UserSettings",
+        "stats",
+        "tick",
+        "time",
+        "elapsedTime",
+        "collectgarbage",
+        "warn",
+        "error",
+        "print"
+    ]
+}
