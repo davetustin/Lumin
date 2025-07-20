@@ -15,6 +15,7 @@ local ServiceRegistry = require(Core:WaitForChild("ServiceRegistry"))
 -- Require and register all server-side services
 local GameService = require(Systems:WaitForChild("GameService"))
 local LightService = require(Systems:WaitForChild("LightService"))
+local LevelGenerator = require(Systems:WaitForChild("LevelGenerator"))
 -- local DataManager = require(script.Parent.DataManager) -- Future: Uncomment when DataManager is created
 -- local NetworkManager = require(script.Parent.NetworkManager) -- Future: Uncomment when NetworkManager is created
 -- local StateValidator = require(script.Parent.StateValidator) -- Future: Uncomment when StateValidator is created
@@ -22,6 +23,7 @@ local LightService = require(Systems:WaitForChild("LightService"))
 -- Register services with the ServiceRegistry
 ServiceRegistry.RegisterService("GameService", function() return GameService.new() end)
 ServiceRegistry.RegisterService("LightService", function() return LightService.new() end)
+ServiceRegistry.RegisterService("LevelGenerator", function() return LevelGenerator.new() end)
 -- ServiceRegistry.RegisterService("DataManager", function() return DataManager.new() end) -- Future
 -- ServiceRegistry.RegisterService("NetworkManager", function() return NetworkManager.new() end) -- Future
 -- ServiceRegistry.RegisterService("StateValidator", function() return StateValidator.new() end) -- Future
